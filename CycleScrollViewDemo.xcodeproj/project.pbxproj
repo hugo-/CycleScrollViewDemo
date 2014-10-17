@@ -14,6 +14,7 @@
 		B2D50D7819F1116000C516F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D50D7719F1116000C516F0 /* Images.xcassets */; };
 		B2D50D7B19F1116000C516F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2D50D7919F1116000C516F0 /* LaunchScreen.xib */; };
 		B2D50D8719F1116000C516F0 /* CycleScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D50D8619F1116000C516F0 /* CycleScrollViewDemoTests.m */; };
+		B2D50D9319F111A900C516F0 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D50D9219F111A900C516F0 /* CycleScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B2D50D8019F1116000C516F0 /* CycleScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CycleScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D50D8519F1116000C516F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2D50D8619F1116000C516F0 /* CycleScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleScrollViewDemoTests.m; sourceTree = "<group>"; };
+		B2D50D9119F111A900C516F0 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
+		B2D50D9219F111A900C516F0 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		B2D50D6919F1116000C516F0 /* CycleScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B2D50D9019F111A900C516F0 /* CycleScrollView */,
 				B2D50D6E19F1116000C516F0 /* AppDelegate.h */,
 				B2D50D6F19F1116000C516F0 /* AppDelegate.m */,
 				B2D50D7119F1116000C516F0 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				B2D50D8519F1116000C516F0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2D50D9019F111A900C516F0 /* CycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B2D50D9119F111A900C516F0 /* CycleScrollView.h */,
+				B2D50D9219F111A900C516F0 /* CycleScrollView.m */,
+			);
+			path = CycleScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				B2D50D7319F1116000C516F0 /* ViewController.m in Sources */,
 				B2D50D7019F1116000C516F0 /* AppDelegate.m in Sources */,
+				B2D50D9319F111A900C516F0 /* CycleScrollView.m in Sources */,
 				B2D50D6D19F1116000C516F0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
